@@ -88,9 +88,11 @@ h2 {
   justify-content: space-around;
   font-size: 100px;
 }
+
 .widget .weatherIcon i {
   padding-top: 30px;
 }
+
 .widget .weatherInfo {
   flex: 0 0 70%;
   height: 40%;
