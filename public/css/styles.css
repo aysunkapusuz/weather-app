@@ -36,9 +36,8 @@ h2 {
   color: rgb(39, 39, 129);
 }
 
-
 .widget {
-    background-color: none;
+  background-color: none;
   position: absolute;
   top: 50%;
   left: 50%;
