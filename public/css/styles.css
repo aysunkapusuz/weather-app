@@ -101,9 +101,9 @@ h2 {
   align-items: center;
   color: rgb(39, 39, 129);
   background-color:  rgb(104, 204, 240);
-  
   font-weight: bold;
 }
+
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
   width: 100%;
