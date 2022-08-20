@@ -2,19 +2,19 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
 /* $border-radius: 20px; */
 body {
-  color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("pic.jpg") cover cover fixed;
+  background-image: url("pexels-pixabay-314726.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
    background-size: cover;
+   background-repeat: no-repeat;
 }
 
 
@@ -23,18 +23,23 @@ body {
 }
 
 header {
-  margin-top: 16px;
-  margin-bottom: 48px;
+  margin-top: 70px;
+  font-style: italic;
 }
 
 h2 {
+  font-family: "Great Vibes", cursive; 
+  font-weight: normal; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff; 
   font-size: 45px;
-  margin-bottom: 16px;
   text-align: center;
+  color: rgb(39, 39, 129);
 }
 
 
 .widget {
+    background-color: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,14 +60,20 @@ h2 {
   width: 100%;
   justify-content: center;
   padding: 2rem;
-  background-color: gray;
+  border-radius: 20px;
 }
 
 .weatherLocation button{
-  background: #080705;
+  border-radius: 10px;
+  background:  #32a9ee;
   color:#fff;
   border: 1px solid transparent;
+  cursor: pointer;
 }
+.weatherLocation button:hover{
+    background-color: #07537f ;
+}
+
 .weatherLocation input:focus{
   outline: 0 none;
 }
@@ -72,7 +83,8 @@ h2 {
   height: 60%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background: #FAFAFA;
+  color: #72c1ef;
+  ;
   font-family: weathericons;
   display: flex;
   align-items: center;
@@ -85,11 +97,12 @@ h2 {
 .widget .weatherInfo {
   flex: 0 0 70%;
   height: 40%;
-  background: #080705;
   border-bottom-left-radius: 20px;
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(39, 39, 129);
+  background-color: #E4D6A7;
+  font-weight: bold;
 }
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
@@ -117,12 +130,12 @@ h2 {
 .widget .date {
   flex: 0 0 30%;
   height: 40%;
-  background: rgb(68, 112, 207);
+  background: lightblue;
   border-bottom-right-radius: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  color: rgb(39, 39, 129);
   font-size: 30px;
   font-weight: 800;
 }
