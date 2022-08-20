@@ -10,9 +10,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("pic.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("pic.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
 }
 
 
