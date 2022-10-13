@@ -1,7 +1,7 @@
 <div align="center"> 
 
 # WEATHER APP 
-## [Click Here](https://groceryshoppinglistapp.onrender.com/?) for live site
+## [Click Here](https://weather-app-wm7v.onrender.com/?) for live site
 
 
 https://user-images.githubusercontent.com/101064345/185801885-fe67f944-5070-46c6-90bf-c2c19817ecd5.mp4 
